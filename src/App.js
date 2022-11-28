@@ -2,6 +2,7 @@ import React from "react"
 import './App.css'
 import WindowTracker from "./components/WindowTracker"
 
+
 export default class App extends React.Component {
   state = {
       show: true
@@ -18,7 +19,9 @@ export default class App extends React.Component {
                   Toggle WindowTracker
               </button>
               {this.state.show && <WindowTracker />}
-          </div>
+            </div>
       )
   }
 }
+
+// Class components
